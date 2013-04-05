@@ -30,3 +30,30 @@ body{
 .brand span:hover{
 	color: green;
 }
+.new h1{
+	float:left;
+	font-size:20px;
+	border: green solid;
+}
+.new{
+	float: left;
+	background: green;
+	width: 400px;
+}
+.new{
+	width: 400px;
+	height:60px;
+	float:left;
+}
+.new form div{
+	
+	margin:3px 0px}
+
+.new  form div textarea{
+	width:332px;
+	height:40px;
+	
+}
+.new .actions{
+	margin-left:50px;
+}
