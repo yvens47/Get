@@ -4,11 +4,17 @@ gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+group :development do
 gem 'sqlite3'
+
+end
 gem 'annotate'
 gem 'will_paginate'
 gem 'will_paginate-bootstrap'
+
+group :production do
+  gem 'pg'
+end
 
 
 # Gems used only for assets and not required
