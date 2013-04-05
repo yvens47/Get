@@ -15,7 +15,19 @@
 body{
 	padding :80px;
 }
-
+.brand{
+	background: #627d4d; /* Old browsers */
+background: -moz-linear-gradient(top,  #627d4d 0%, #1f3b08 65%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#627d4d), color-stop(65%,#1f3b08)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #627d4d 0%,#1f3b08 65%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #627d4d 0%,#1f3b08 65%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #627d4d 0%,#1f3b08 65%); /* IE10+ */
+background: linear-gradient(to bottom,  #627d4d 0%,#1f3b08 65%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08',GradientType=0 ); /* IE6-9 */
+border-radius: 5px 60px 0px 50px;
+border: solid 1px #DDDDDD;
+box-shadow : 1px 1px 8px grey;
+}
 
 .brand span{
 	background-color: orange;
@@ -29,6 +41,7 @@ body{
 }
 .brand span:hover{
 	color: green;
+	
 }
 .new h1{
 	float:left;
