@@ -1,4 +1,7 @@
 GetResult::Application.routes.draw do
+  resources :questions
+
+
   get "home/index"
 
   get "home/about"
