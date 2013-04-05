@@ -39,6 +39,11 @@ box-shadow : 1px 1px 8px grey;
 	border: dashed solid;
 
 }
+.page-header span{
+	font-size : 20px;
+	color: #1F3B08;
+	margin-right:3px;
+}
 .brand span:hover{
 	color: green;
 	

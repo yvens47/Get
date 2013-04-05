@@ -1,8 +1,8 @@
 <h1>All questions</h1>
 
-<% @questions.each do |question| %>
+<% @questions.each_with_index do |question, i| %>
 <div class="page-header">
-    <%= question.userquestion %>
+    <span><%= (i+1) %>.</span> <%=question.userquestion %>
     <%= link_to 'Show', question %>
     <%= link_to 'Edit', edit_question_path(question) %>
     <%= link_to 'Destroy', question, method: :delete, data: { confirm: 'Are you sure?' } %>
